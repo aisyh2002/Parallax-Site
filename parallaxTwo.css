@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 800px;
+    height: 100vh;
+    /* background-color: skyblue; */
+    border: 5px solid black;
+    position: relative;
+    overflow: hidden;
+    left: 30%;
+}
+
+#container:hover {
+    cursor: pointer;
+}
+
+#One, #Two, #Three, #Four, #Five, #Six {
+    width: 1000px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#One{
+    background-image: url("sky.png");
+    z-index: 0;
+}
+
+#Two { 
+    background-image: url("image.jpg");
+    top: -100px;
+    z-index: 1;
+}
+#Three {
+    background-image: url("mountain3.png");
+    top: 400px;
+    z-index: 3;
+}
+#Four {
+    background-image: url("mountain2.png");
+    top: 500px;
+    z-index: 4;
+}
+#Five{
+    background-image: url("mountain1.png");
+    top: 684px;
+    height: 150%;
+    z-index: 5;
+}
+#Six {
+    background-image: url("person.png");
+    top: 568px;
+    width: 80%;
+    height: 80%;
+    z-index: 6;
+}
+

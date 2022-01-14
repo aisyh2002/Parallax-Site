@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div#container1 {
+    width: 100%;
+    height: 100%;
+    background-color: #F9B9F2;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    /* background-color: palegreen; */
+}
+.plax {
+    width: 500px;
+    height: 500px;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 15px; 
+    margin-top: 150px;
+    margin-left: 10px;
+    
+    } 
+
+
+.plax img{ 
+    width: 500px; 
+    height: 400px;
+    padding-top: 50px;
+    padding-bottom: auto;
+} 
+
